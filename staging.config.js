@@ -5,7 +5,7 @@ module.exports = defineConfig({
   ...baseConfig,
   e2e: {
     ...baseConfig.e2e,
-    baseUrl: "http://localhost:3000", // Staging URL or Preview URL
+    baseUrl: "https://www.saucedemo.com/", // Staging URL or Preview URL
   },
   env: {
     projectName: "Staging API Testing",

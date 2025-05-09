@@ -6,6 +6,7 @@ module.exports = defineConfig({
   ...baseConfig,
   e2e: {
     ...baseConfig.e2e,
+    baseUrl: "https://datatables.net/", // Prod URL
   },
   env: {
     projectName: "Smoke Testing",
