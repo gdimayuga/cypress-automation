@@ -8,7 +8,6 @@ module.exports = defineConfig({
   projectId: "tqyggs",
   experimentalStudio: true,
   defaultCommandTimeout: 15000,
-  retries: 3,
   reporter: "cypress-mochawesome-reporter",
   reporterOptions: {
     charts: true,
